@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url("background/cool-website-background-13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* header */
+header {
+    padding: 10px;
+    margin-left: 5px;
+    color: white;
+    display: flex;
+}
+#cname {
+    display: inline;
+}
+a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 18%;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sup {
+    margin-left: 40px;
+}
+/* main */
+.main {
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 23%;
+    margin-top: 13%;
+    height: 200px;
+}
+#wel {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#bm {
+    padding: 12px;
+    border-radius: 5px;
+}
+#bm1 {
+    padding: 12px;
+    border-radius: 5px;
+}
+/* footer */
+footer {
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    text-align: center;   
+    margin-top: 11.5%;
+}

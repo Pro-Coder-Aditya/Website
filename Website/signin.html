@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="favicon/Bit Syntax.png">
+    <link rel="stylesheet" href="signin.css">
+</head>
+    <body background="background/cool-website-background-13.jpg">
+        <header>Sign In</header>
+        <section>
+        <form action="submit1.html" onsubmit="return mydata()">
+            <div class="container">
+                <div class="box">
+                    <h1 id="account">Sign In</h1>
+                    <p>Username</p>
+                    <input type="text" placeholder="Enter your name" id="name">
+                    <p>Password</p>
+                    <input type="password" placeholder="Enter your password" id="pass">
+                    <br>
+                    <input type="checkbox" onclick="show()">
+                    <p id="myp">Show Password</p>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button onclick="return clr()">Clear</button>
+                </div>
+            </div>
+        </form>
+        </section>
+        <footer>&copy; 2025 Bit Syntax Sign In</footer>
+    </body>
+    <script src="signin.js"></script>
+</html>
